@@ -60,6 +60,7 @@ class Dog
       hash = {name: name, breed: breed}
       dog = self.create(hash)
     end
+    dog
   end
 
 end
